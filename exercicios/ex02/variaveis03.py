@@ -5,3 +5,14 @@ texto = f"idade {age} preço {price}"
 print(f"idade {age} preço {price}")
 print(texto)
 
+price = 15.5
+age = 40
+print(str(price))
+print(str(age))
+texto = f"idade {age} preço {price}"
+print(texto)
+
+price = "15.50"
+age = "42"
+print(float(price))
+print(int(age))
