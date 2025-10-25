@@ -1,0 +1,9 @@
+valor01 = 5
+valor02 = 2
+print(valor01 + valor02)
+print(valor01 - valor02)
+print(valor01 * valor02)
+print(valor01 / valor02)
+print(valor01 // valor02)
+print(valor01 ** valor02)
+print(valor01 % valor02)
