@@ -12,3 +12,7 @@ saldo /= 2
 print(saldo)
 saldo //= 2
 print(saldo)
+saldo %= 80
+print(saldo)
+saldo **= 2
+print(saldo)
