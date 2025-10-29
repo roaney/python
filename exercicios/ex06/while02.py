@@ -1,11 +1,11 @@
-print("\n--- Loop com BREAK para validação ---")
-while True:  # Cria um loop que seria infinito se não tivesse o 'break'
-    senha = input("Digite a senha (ou 'sair' para encerrar): ")
-    if senha == "1234":
-        print("Senha correta. Acesso concedido!")
-        break # Sai do loop 'while True'
-    elif senha.lower() == "sair":
-        print("Encerrando o programa.")
-        break # Sai do loop 'while True'
-    else:
-        print("Senha incorreta. Tente novamente.")
+opcao = -1
+while opcao != 0:
+    opcao = int(input("[1] Sacar \n[2] Extrato \n[0] Sair\n"))
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo o extrato...")
+    elif opcao == 0:
+        print("Operaçao encerrada.")
+else:
+    print("Obrigado por usar nosso sistema bancário, até logo.")
